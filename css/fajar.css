@@ -1063,7 +1063,7 @@ transform: scale(0); -webkit-transform: scale(0); -moz-transform: scale(0); -web
 .folio{ background:#fff;}
 .folio .folio-img{ float:left; width:50%}
 .folio .folio-img.right-img{ float:right;}
-.folio .folio-caption{ float:left; width:50%; text-align:center; padding:4% 5% 0;}
+.folio .folio-caption{ float:left; width:50%; text-align:center; padding:4% 5%;}
 .folio .folio-caption i{ font-size:45px; margin-bottom:5%;display: inline-block;}
 .folio .folio-caption p{ padding-bottom:10px;}
 
@@ -1636,7 +1636,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><
 .rsABlock {left: 0;top: 0;position: absolute;z-index: 15;}
 img.rsImg {max-width: none;opacity:.6;}
 img.rsImg.full-visible {	opacity:1;}
-.grab-cursor {cursor:url("../images/grab.png.gif") 8 8, move; cursor:-webkit-grab;}
+/*.grab-cursor {cursor:url("../images/grab.png.gif") 8 8, move; cursor:-webkit-grab;}*/
 .grabbing-cursor{ cursor:url("../images/grab.png.gif") 8 8, move;cursor:-webkit-grabbing;}
 .rsNoDrag {cursor: auto;}
 .rsLink {left:0;top:0;position:absolute;width:100%;height:100%;display:block;z-index: 20;background: url("http://wahabali.com/work/fajar-demo/css/blank.gif");}

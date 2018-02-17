@@ -407,9 +407,6 @@
 						});
 					
 					
-					
-					
-					
 					/* ------------------------------------------------------------------------ 
 					   SMOOTH SCROLLING
 					------------------------------------------------------------------------ */ 
@@ -422,7 +419,8 @@
 								if($this.attr('href') == '#' ) {  
 								} else {
 								   jQuery('html, body').animate({ 
-										scrollTop: (jQuery(target).offset().top) - -1
+										// scrollTop: (jQuery(target).offset().top) - +72
+										scrollTop: (jQuery(target).offset().top) - +72
 									}, 1000);
 								}  
 							}
